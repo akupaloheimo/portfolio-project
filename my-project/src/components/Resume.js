@@ -1,14 +1,12 @@
 import React from "react";
 import Resume from "../assets/CV_Aku_Paloheimo.docx.pdf"
 
-const Resume = () => {
-    return (
-        <section>
-            This is my resume
-            <Resume/>
-        </section>
-        
-    );
+const PDFViewer = () => {
+ return (
+ <div>
+ <iframe src={Resume} width="100%" height="500px" />
+ </div>
+ );
 };
 
-export default Resume;
+export default PDFViewer;

@@ -25,7 +25,7 @@ const About = () => {
           </p>
           <p className="pb-5">
             I am very interested about software engineering and have a lot of energy to learn more about this field.
-            I posses skills in C, C#, JavaScript, Python, React, SQL and Scala. You can see examples of thees skills from my github.
+            I posses skills in C, C#, JavaScript, Python, React, SQL and Scala. You can see examples of thees skills from my <span><a href="https://github.com/akupaloheimo" className="underline hover:font-bold">github</a></span>.
           </p>
 
           <p>

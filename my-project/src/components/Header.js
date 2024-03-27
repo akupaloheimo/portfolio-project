@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import Resume from "../assets/CV_Aku_Paloheimo.docx.pdf"
 
 
 const Header = () => {
@@ -29,7 +30,7 @@ const Header = () => {
             <a href="/#contact" className="no-underline hover:underline font-bold">Contact</a>
           </li>
           <li>
-            <a href="/#resume" className="no-underline hover:underline font-bold">
+            <a href={Resume} target="_blank" rel="noreferrer" className="no-underline hover:underline font-bold">
               Resume
             </a>
           </li>
