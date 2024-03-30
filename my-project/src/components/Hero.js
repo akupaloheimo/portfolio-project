@@ -17,12 +17,14 @@ const Hero = () => {
             Hi, <br />My name is <span className="text-accent">Aku</span> <br />
             Computer Science student
           </h1>
+          <a href="https://www.aalto.fi/fi">
           <img
             src={Aalto}
             alt="logo"
             width="120"
             height="100"
           />
+          </a>
 
           <p className="py-5">
             I am eager to learn more about software development
