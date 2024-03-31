@@ -1,5 +1,6 @@
 import React from "react";
-import AboutImg from "../assets/profile/aku_kirifuri-03.jpg";
+import HeroImg from "../assets/profile/Hero.jpg";
+
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="about-img">
           <img 
-            src={AboutImg}
+            src={HeroImg}
             alt="coding illustration"
             width="1000"
             height="1000"
@@ -30,12 +31,13 @@ const About = () => {
 
           <p>
             I have experience as a mathematics teacher and 
-            I have been an active board member of Aalto tennis
+            I have been an active board member of Aalto tennis.
+            I have also been to exchange in Singapore University of Tehcnology and Design (SUTD)
           </p>
 
           <p>
             In my spare time I have a passion for photography.
-            I wanted to use my photography hobby to display my development skills.
+            I wanted to use my photography hobby to display my web development skills.
           </p>
         </div>
 

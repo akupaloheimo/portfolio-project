@@ -1,5 +1,4 @@
 import React from "react";
-import HeroImg from "../assets/profile/Hero.jpg";
 import Aalto from "../assets/aalto_university.png"
 
 import {
@@ -10,12 +9,12 @@ import {
 
 const Hero = () => {
   return (
-    <section className="bg-primary px-5 text-white py-32">
+    <section className="bg-primary px-5 text-white py-40">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">
-            Hi, <br />My name is <span className="text-accent">Aku</span> <br />
-            Computer Science student
+            Hi, <br />My name is <span className="text-accent"><a href="/#about">Aku</a></span> <br />
+            I am a Computer Science student at 
           </h1>
           <a href="https://www.aalto.fi/fi">
           <img
@@ -57,13 +56,7 @@ const Hero = () => {
           
         </div>
 
-        <div className="hero-img">
-          <img
-            src={HeroImg}
-            alt="coding illustration"
-            className="lgw-[80%] ml-auto"
-          />
-        </div>
+        
       </div>
     </section>
   );
