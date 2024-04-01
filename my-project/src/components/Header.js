@@ -43,7 +43,7 @@ const Header = () => {
       <nav
         className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}
       >
-        <ul className="flex flex-col font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-#B85042 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-500 md:dark:bg-gray-900 dark:border-gray-700">
+        <ul className="flex flex-col font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-red-500 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-500 md:dark:bg-gray-900 dark:border-gray-700">
           <li>
             <a href="/#about" onClick={closeNav}>About</a>
           </li>
