@@ -26,7 +26,7 @@ const Projects = () => {
 
         <div className="about-img"></div>
       </div> 
-      <div className="pl-20"> 
+      <div className="pl-5 md:justify-between"> 
       <div class="relative w-full h-full flex gap-10 snap-x snap-mandatory overflow-x-auto pb14 py-2">
         <div class="snap-center shrink-0">
           <img class="shrink-0 w-80 h-100 rounded-lg shadow-xl bg-white" src={kukka} alt="coding illustration"/>
