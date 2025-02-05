@@ -1,52 +1,59 @@
 import React from "react";
 
-const Blog = () => {
-
+const Skills = () => {
   const post = [
     {
-      desc: "I have done this project on my own time and a few web related applications using Javascript relating to some school courses.",
+      desc: "I've worked on JavaScript projects both independently and through web development courses.",
       title: "JavaScript",
     },
     {
-      desc: "The first year of Computer Science studies we were learning Scala, courses like O1, O2, OS1, and OS2 used only Scala.",
+      desc: "My first-year CS studies focused heavily on Scala, including courses like O1, O2, OS1, and OS2.",
       title: "Scala",
     },
     {
-      desc: "I've done a game development course while I was on exchange in Singapore University of Technology and Design. You can see one of the games that we made in my GitHub. We also made a game from ground up in a group of multitalented people.",
+      desc: "During my exchange at SUTD, I built a game from scratch in a diverse team using C#.",
       title: "C#",
     },
     {
-      desc: "While on exchange in Singapore (SUTD) I did a curse on blockchains and web3 applications. On that course we also had a group project where we made a web3 application online, i had to learn React for that project. The application was a marketplace where you could use Etherium to buy goods in a safe manner.",
+      desc: "I developed a Web3 marketplace using Ethereum and React as part of a blockchain course at SUTD.",
       title: "React",
+    },
+    {
+      desc: "As a board member of Aalto Tennis, I organized coaching and balanced responsibilities with studies.",
+      title: "Aalto Tennis",
+    },
+    {
+      desc: "I completed my Bachelor's degree in 2024, focusing on low-latency live streaming protocols in my thesis.",
+      title: "Bachelor's Degree",
     },
   ];
 
   return (
-    <section className="bg-primary text-white px-5 py-32" id="blog">
-      <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
-        <div className="about-info mb-5">
-          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-fit border-[#B85042] pb-2">
-            Languages
+    <section className="bg-primary text-white px-6 py-32" id="skills">
+      <div className="container mx-auto grid md:grid-cols-2 gap-12">
+        <div>
+          <h2 className="text-white text-4xl font-bold mb-6 border-b-4 w-fit border-accent pb-2">
+            Experience
           </h2>
-
-          <p className="pb-5">Some of the programming languages I know.</p>
+          <p className="text-white text-lg">
+            Some of the programming languages and skills I have experience with.
+          </p>
         </div>
-
-        <div></div>
       </div>
 
-      <div className="projects container mx-auto grid md:grid-cols-2 gap-10">
-        {post.map((item) => {
-          return (
-            <div className="border-2 rounded p-5">
-              <h3 className="py-5 text-2xl">{item.title}</h3>
-              <p className="bg-accent rounded text-white px-6 py-3">{item.desc}</p>
-            </div>
-          );
-        })}
+      <div className="container mx-auto grid md:grid-cols-2 gap-6 mt-10">
+        {post.map((item, index) => (
+          <div
+            key={index}
+            className="border border-accent rounded-lg p-6 shadow-lg"
+          >
+            <h3 className="text-2xl font-semibold mb-3">{item.title}</h3>
+            <p className="bg-accent text-white p-4 rounded-lg">{item.desc}</p>
+          </div>
+        ))}
       </div>
     </section>
   );
 };
 
-export default Blog;
+export default Skills;
