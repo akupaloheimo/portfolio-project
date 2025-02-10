@@ -23,9 +23,10 @@ const About = () => {
             and I am a Computer Science student at Aalto University.
           </p>
           <p className="pb-4 text-lg">
-            I am very interested in software engineering and have a strong
-            passion for learning more. My technical skills include C, C#,
-            JavaScript, Python, React, SQL, and Scala. You can explore my
+            I am very interested in software engineering and interaction design
+            and have a strong passion for learning more. My technical skills
+            include C, C#, JavaScript, Python, React, SQL, and Scala. I am also
+            proficient with prototyping tools like Figma. You can explore my
             projects on my{" "}
             <a
               href="https://github.com/akupaloheimo"
