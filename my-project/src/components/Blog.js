@@ -48,7 +48,9 @@ const Skills = () => {
             className="border border-accent rounded-lg p-6 shadow-lg"
           >
             <h3 className="text-2xl font-semibold mb-3">{item.title}</h3>
-            <p className="bg-accent text-white p-4 rounded-lg">{item.desc}</p>
+            <p className="bg-secondary text-white p-4 rounded-lg">
+              {item.desc}
+            </p>
           </div>
         ))}
       </div>

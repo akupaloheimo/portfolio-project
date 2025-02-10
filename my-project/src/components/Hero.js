@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="text-center md:text-left">
           <h1 className="text-4xl lg:text-6xl font-semibold leading-tight">
             Hi, <br /> My name is{" "}
-            <span className="font-bold">
+            <span className="text-accent font-bold">
               <a href="/#about">Aku</a>
             </span>{" "}
             <br />I am a Computer Science student at
@@ -26,10 +26,10 @@ const Hero = () => {
             />
           </a>
 
-          <p className="bg-secondary rounded px-5 py-5 text-xl max-w-lg mx-auto md:mx-0">
+          <div className="bg-secondary rounded px-5 py-5 text-xl max-w-lg mx-auto md:mx-0">
             I am eager to learn more about software development.
             {/* Social Links */}
-            <div className="flex justify-center md:justify-start space-x-6 mt-6">
+            <p className="flex justify-center md:justify-start space-x-6 mt-6">
               <a
                 href="https://github.com/akupaloheimo"
                 className="text-black hover:text-white transition"
@@ -48,8 +48,8 @@ const Hero = () => {
               >
                 <AiFillPhone size={44} />
               </a>
-            </div>
-          </p>
+            </p>
+          </div>
         </div>
       </div>
     </section>

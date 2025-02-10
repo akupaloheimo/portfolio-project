@@ -11,6 +11,7 @@ import maisema from "../assets/maisema.jpg";
 
 const Projects = () => {
   const [selectedImage, setSelectedImage] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
     { src: kukka, alt: "Flower" },
@@ -23,6 +24,25 @@ const Projects = () => {
     { src: pari, alt: "Couple" },
     { src: maisema, alt: "Landscape" },
   ];
+
+  const openImage = (index) => {
+    setCurrentIndex(index);
+    setSelectedImage(images[index]);
+  };
+
+  const nextImage = (e) => {
+    e.stopPropagation();
+    const newIndex = (currentIndex + 1) % images.length;
+    setCurrentIndex(newIndex);
+    setSelectedImage(images[newIndex]);
+  };
+
+  const prevImage = (e) => {
+    e.stopPropagation();
+    const newIndex = (currentIndex - 1 + images.length) % images.length;
+    setCurrentIndex(newIndex);
+    setSelectedImage(images[newIndex]);
+  };
 
   return (
     <section className="bg-secondary text-white px-6 py-32" id="pictures">
@@ -39,7 +59,7 @@ const Projects = () => {
             <div
               key={index}
               className="cursor-pointer"
-              onClick={() => setSelectedImage(image)}
+              onClick={() => openImage(index)}
             >
               <img
                 src={image.src}
@@ -66,11 +86,23 @@ const Projects = () => {
             >
               ✕
             </button>
+            <button
+              className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white text-black px-4 py-2 rounded-full text-lg"
+              onClick={prevImage}
+            >
+              ◀
+            </button>
             <img
               src={selectedImage.src}
               alt={selectedImage.alt}
               className="max-w-full max-h-[90vh] rounded-lg shadow-xl"
             />
+            <button
+              className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white text-black px-4 py-2 rounded-full text-lg"
+              onClick={nextImage}
+            >
+              ▶
+            </button>
           </div>
         </div>
       )}
