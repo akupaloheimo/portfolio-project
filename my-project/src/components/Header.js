@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Resume from "../assets/CV_Aku_Paloheimo.docx.pdf";
+import Portfolio from "../assets/Portfolio.pdf";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -32,6 +33,14 @@ const Header = () => {
           className="font-semibold bg-accent px-4 py-2 rounded-lg hover:bg-opacity-80 transition"
         >
           Resume
+        </a>
+        <a
+          href={Portfolio}
+          target="_blank"
+          rel="noreferrer"
+          className="font-semibold bg-accent px-4 py-2 rounded-lg hover:bg-opacity-80 transition"
+        >
+          Portfolio
         </a>
       </nav>
 
