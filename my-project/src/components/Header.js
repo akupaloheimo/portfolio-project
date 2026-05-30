@@ -1,7 +1,5 @@
-import React, { useState } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import React from "react";
 import Resume from "../assets/CV.pdf";
-import Portfolio from "../assets/Portfolio.pdf";
 
 const Header = () => {
   return (

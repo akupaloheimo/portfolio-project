@@ -1,6 +1,6 @@
 import React from "react";
 import HeroImg from "../assets/profile/Hero.jpg";
-import { AiOutlineGithub, AiFillLinkedin, AiFillPhone } from "react-icons/ai";
+import { AiOutlineGithub, AiFillLinkedin } from "react-icons/ai";
 import aaltoLogo from "../assets/aalto_university.png";
 
 const About = () => {
