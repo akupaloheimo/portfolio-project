@@ -9,6 +9,7 @@ import photo1 from "../assets/PrototypePhotos/photo1.jpg";
 import photo2 from "../assets/PrototypePhotos/photo2.jpg";
 import photo3 from "../assets/PrototypePhotos/photo3.jpg";
 import RPinHCI from "../assets/PrototypePhotos/RPinHCI.jpg";
+import image from "../assets/PrototypePhotos/image.png";
 
 const Projects = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -37,6 +38,12 @@ const Projects = () => {
       title: "Album Recommendation Prototype",
       photos: [photo1, photo2, photo3],
       link: "https://www.figma.com/proto/UEgjfcnAs7QjNwCaHkN6y8/Album-Recommender?node-id=1-5&page-id=0%3A1&starting-point-node-id=1%3A5&t=Buk2CDKFs3V7RGGO-1",
+    },
+    {
+      desc: "A website that was done as the final project in a course about aesthetics. The website has a simple and clean design, with a focus on typography and layout. The website was built using React, CSS, and JavaScript.",
+      title: "Aesthetic Website Project",
+      photos: [image],
+      link: "https://reclaimedworlds.vercel.app/",
     },
     {
       desc: "A personal diary prototype focused on simple and reflective journaling. This prototype was designed to encourage users to reflect on their day and express their thoughts in a simple and intuitive way.",
