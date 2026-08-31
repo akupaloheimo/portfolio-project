@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio-project/static/css/main.3b4d65e2.css",
+    "main.js": "/portfolio-project/static/js/main.c4501c61.js",
+    "static/js/453.0a36081d.chunk.js": "/portfolio-project/static/js/453.0a36081d.chunk.js",
+    "static/media/ScrapStitch.pdf": "/portfolio-project/static/media/ScrapStitch.da75c053cd4bcf05735f.pdf",
+    "static/media/GDD.pdf": "/portfolio-project/static/media/GDD.222b1b21ab19830f0c21.pdf",
+    "static/media/photo1.jpg": "/portfolio-project/static/media/photo1.9a00f2039e8dee2ae707.jpg",
+    "static/media/photo2.jpg": "/portfolio-project/static/media/photo2.87c69e654068968a8d65.jpg",
+    "static/media/image.png": "/portfolio-project/static/media/image.701972d83e3abc77f4f3.png",
+    "static/media/photo3.jpg": "/portfolio-project/static/media/photo3.90e6d6f68252af850244.jpg",
+    "static/media/ResearchProjectInHCI.pdf": "/portfolio-project/static/media/ResearchProjectInHCI.3eed5e271c3325c6acd2.pdf",
+    "static/media/probeStudy.pdf": "/portfolio-project/static/media/probeStudy.2fb2fb2e0c5366ed2502.pdf",
+    "static/media/literature_review.pdf": "/portfolio-project/static/media/literature_review.9a16aac6334583971778.pdf",
+    "static/media/RPinHCI.jpg": "/portfolio-project/static/media/RPinHCI.3000b27c69d8b193c693.jpg",
+    "static/media/Hero.jpg": "/portfolio-project/static/media/Hero.11b5a91d6865fb0a1aff.jpg",
+    "static/media/CV.pdf": "/portfolio-project/static/media/CV.2098922fb7901519355b.pdf",
+    "static/media/aalto_university.png": "/portfolio-project/static/media/aalto_university.0b630ff15f0440163419.png",
+    "index.html": "/portfolio-project/index.html",
+    "main.3b4d65e2.css.map": "/portfolio-project/static/css/main.3b4d65e2.css.map",
+    "main.c4501c61.js.map": "/portfolio-project/static/js/main.c4501c61.js.map",
+    "453.0a36081d.chunk.js.map": "/portfolio-project/static/js/453.0a36081d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b4d65e2.css",
+    "static/js/main.c4501c61.js"
+  ]
+}
