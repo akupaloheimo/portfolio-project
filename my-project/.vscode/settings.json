@@ -1,3 +1,11 @@
 {
-    "css.customData": [".vscode/tailwind.json"]
+    "css.customData": [".vscode/tailwind.json"],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // Set the default
+    // formatter for all files
+    "editor.formatOnSave": true,
+    // Enable per-language
+    "[javascript]": {
+        "editor.formatOnSave": true
+    }
 }

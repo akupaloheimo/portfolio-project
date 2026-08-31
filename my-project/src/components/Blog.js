@@ -3,7 +3,7 @@ import React from "react";
 const Skills = () => {
   const post = [
     {
-      desc: "I've worked on JavaScript projects both independently and through web development courses.",
+      desc: "I've gotten the chance to develop poublic transport mobile applications for Android and iOS. Additionally the desgin and wireframing of new features have been one of my main responsibilities.",
       title: "Bonwal Oy 2025-Present",
     },
     {

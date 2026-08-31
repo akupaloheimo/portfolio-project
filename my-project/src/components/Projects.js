@@ -16,6 +16,12 @@ const Projects = () => {
 
   const post = [
     {
+      desc: "My master's thesis done as part of my studies at Aalto University and for Bonwal Oy with grade: 4/5",
+      title: "Integrating Lightweight User-Centred Design Practices into a Small Agile Software Team — A Case Study",
+      photos: [],
+      link: 'https://urn.fi/URN:NBN:fi:aalto-202608206571',
+    },
+    {
       desc: "Research paper exploring how AI can support survey research in HCI. The paper was a part of the last course of my master's degree where we practiced making a CHI style research paper.",
       title: "Research Project in HCI",
       photos: [RPinHCI],
@@ -120,7 +126,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center"
                 >
-                  Link <AiOutlineExport className="ml-1" />
+                  Link to project <AiOutlineExport className="ml-1" />
                 </a>
               </div>
             )}
